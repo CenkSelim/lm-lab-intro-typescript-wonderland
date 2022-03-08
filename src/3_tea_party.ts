@@ -61,7 +61,6 @@ export function attendATeaParty() {
 }
 
 function setTheTable(): Table {
-	// 👉 FIXME ❌
 	const table: Table = {seats: []};
 	for (let index = 0; index < 4; index++) {
 		table.seats.push({drink: { type: 'Tea', poured: true}});		
