@@ -6,7 +6,7 @@ import { clear, print, askQuestion } from '../console';
 const holes = ['Rabbit','Badger', 'Fox', 'Swiss Cheese', 'Donut'] as const; 
 // hover 'Hole' in the below line and see that it's now defined as the union of whatever is in the 'holes' array
 type Hole = typeof holes[number];
-
+// test to github
 export function enterTheRabbitHole(name: string) {
 	clear(false);
 	print('------------------------');
